@@ -23,8 +23,15 @@ h1 {
 }
 
 .keys {
-  width: 500px;
+  width: 360px;
   margin: 100px auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+.keys .key {
+  transform: translateX(20%);
 }
 
 .keys kbd {

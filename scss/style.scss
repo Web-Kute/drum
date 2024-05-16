@@ -24,8 +24,13 @@ h1 {
 }
 
 .keys {
-  width: 500px;
+  width: 360px;
   margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  .key {
+    transform: translateX(20%);
+  }
 }
 
 .keys kbd {
